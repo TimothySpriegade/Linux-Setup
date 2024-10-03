@@ -9,6 +9,7 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 #give execute permission to all scripts
+echo "current path: $(pwd)"
 chmod +x ./common/bash_setup.sh
 chmod +x ./common/jetbrains_toolbox.sh
 
