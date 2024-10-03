@@ -15,5 +15,5 @@ chmod +x ./common/jetbrains_toolbox.sh
 
 #run all scripts
 ./common/bash_setup.sh || { echo "bash_setup.sh failed"; exit 1; }
-./common/jetbrains_toolbox.sh || { echo "jetbrains_toolbox.sh failed"; exit 1; }
+#./common/jetbrains_toolbox.sh || { echo "jetbrains_toolbox.sh failed"; exit 1; }
 
