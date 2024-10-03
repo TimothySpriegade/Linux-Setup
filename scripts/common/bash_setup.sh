@@ -9,9 +9,12 @@ cd synth-shell || exit 1
 # shellcheck disable=SC2164
 cd ~
 
-## scm_breeze - git shortcuts
-git clone https://github.com/scmbreeze/scm_breeze.git ~/.scm_breeze
-~/.scm_breeze/install.sh || exit 1
 # shellcheck disable=SC1090
 source ~/.bashrc
+
+## scm_breeze - git shortcuts
+#git clone https://github.com/scmbreeze/scm_breeze.git ~/.scm_breeze
+#~/.scm_breeze/install.sh || exit 1
+## shellcheck disable=SC1090
+#source ~/.bashrc
 
