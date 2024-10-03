@@ -8,7 +8,7 @@ fi
 #initiate common scripts distro independent
 chmod +x ./scripts/init_common.sh
 if [ -x ./scripts/init_common.sh ]; then
-./common/init_common.sh
+    ./scripts/init_common.sh
 fi
 
 # Detect the OS distribution and set the DISTRO environment variable
