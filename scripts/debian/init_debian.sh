@@ -9,6 +9,7 @@ fi
 
 # Update and upgrade the system
 apt update && apt upgrade -y
+cd "$(dirname "$0")" || exit 1
 
 # Add execute permissions to all scripts
 chmod +x ./1password.sh

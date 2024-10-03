@@ -17,6 +17,7 @@ if [ -x ./scripts/init_common.sh ]; then
 fi
 
 # Detect the OS distribution and set the DISTRO environment variable
+cd "$(dirname "$0")" || exit 1
 if [ -f /etc/arch-release ]; then
     chmod +x ./scripts/init_arch.sh
     ./scripts/init_arch.sh || exit 1
